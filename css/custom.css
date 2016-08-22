@@ -1,3 +1,6 @@
+/*Some random em value, dont how its works :) */
+@media all and (max-width: 16.125em) {
+
 .events-choose-item:first-child {
   left:5%
 }
@@ -37,4 +40,13 @@
   left: 5%;
   width: 90%;
   height: 1px;
-  visibility: visible; }
+  visibility: visible;
+}
+}
+
+
+  /*.events-choose-item:first-child, .events-choose-item:nth-child(2),
+  .events-choose-item:nth-child(4), .events-choose-item:last-child {
+    left: 0
+  }*/
+}
