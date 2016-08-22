@@ -1,0 +1,40 @@
+.events-choose-item:first-child {
+  left:5%
+}
+
+.events-choose-item:nth-child(2) {
+  left:1.6%
+}
+
+.events-choose-item:nth-child(4) {
+  left:-1.6%
+}
+
+.events-choose-item:last-child {
+  left:-5%
+}
+
+
+
+
+.events-choose-item .item-city {
+  left: 10%;
+  width: 80%;
+}
+
+.events-choose-item .city-large {
+  width: 100%;
+  left: 0px;
+  }
+
+.events-choose-item .item-date {
+  font-size: 0.9rem
+}
+
+.events-choose:before, .events-choose:after {
+  content: '';
+  position: absolute;
+  left: 5%;
+  width: 90%;
+  height: 1px;
+  visibility: visible; }
